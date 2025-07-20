@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+*.env
+*.sqlite3
+chat_history.txt
+*.pdf
+*.log
+.DS_Store
+.vscode/
+*.tmp
+venv/
+
