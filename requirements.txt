@@ -1,3 +1,10 @@
+transformers
+torch
+sentence-transformers
+langchain
+pypdf
+faiss-cpu
+tqdm
+python-dotenv
 streamlit
-openai
-
+groq
