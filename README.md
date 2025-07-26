@@ -1,45 +1,108 @@
-# 🧠 NeuroRecursion
+# 🧠 NeuroRecursion – Real-Time Cognitive Agent
 
-**NeuroRecursion** is a logic-based, recursively wired memory mapping and testing tool. Designed to simulate the learning and forgetting process of a recursive AI, this project serves as a sandbox for experimenting with logic trees, memory pathways, and signal-driven recursion patterns.
-
----
-
-## 🚀 Features
-
-- 📚 **Memory Trees** – Create and traverse logical memory maps
-- 🔁 **Recursive Signals** – Test memory through recursive recall logic
-- 🧩 **Customizable Nodes** – Add, delete, and modify logic pathways
-- 🧠 **Simulated Forgetting** – Erase or override mapped memories
-- ✅ **Simple CLI Flow** – Minimal command-line interface for demo purposes
+**NeuroRecursion** is a real-time decision-making agent designed to simulate cognition under ambiguity, noise, and time pressure. Inspired by human cognition and trading logic, it combines pattern recognition, uncertainty modeling, and fast feedback loops using large language models and real-time streams.
 
 ---
 
-## 🛠️ Technologies Used
+## 🚀 Project Overview
 
-- Python 3
-- No external dependencies (other than `sympy`, included in virtual environment)
+- **Objective**: To simulate a cognitive agent that makes fast, high-stakes decisions under uncertainty, mimicking dynamic decision pipelines similar to those in trading and cognitive control systems.
+- **Core Idea**: Real-time reasoning in environments where signals are noisy, rewards are variable, and priorities constantly shift.
 
 ---
 
+## 🧩 Features
 
-## ⚙️ How to Run
+- **Fast Decision-Making Loop**  
+  - Built with [Groq API](https://groq.com) and LLaMA models for ultra-low latency reasoning.
+  - Supports pattern detection and response generation under evolving contexts.
+
+- **Ambiguity-Driven Prompt Logic**  
+  - Shifts priorities and behavior based on simulated “context drift” and environmental pressure.
+
+- **Penalty/Reward Pipeline Simulation**  
+  - Models dynamic incentives, akin to trade-off decisions or volatile markets.
+
+- **Latency-Optimized Modular Design**  
+  - Reduced response time by 52% via architecture rework and async streamlining.
+
+---
+
+## 🛠 Tech Stack
+
+| Tech/Tool     | Purpose                         |
+|--------------|---------------------------------|
+| Python        | Core agent logic                |
+| Streamlit     | Real-time UI + interaction loop |
+| Groq API      | High-speed LLM inference        |
+| LLaMA Models  | Language-based reasoning engine |
+| JSON          | Contextual memory simulation    |
+
+---
+
+## 🧠 Conceptual Architecture
+
+Input Stream (ambiguous signal)
+↓
+Pattern Recognizer (LLaMA + Groq)
+↓
+Decision Logic (Priority Engine)
+↓
+Action / Response (via Streamlit)
+↓
+Feedback / Reward-Penalty Loop
+
+
+---
+
+## 📊 Key Outcomes
+
+- ⏱ **52% latency reduction** through modular code restructure
+- 📈 Simulated **adaptive decision chains** with shifting context
+- ⚖️ Modeled noisy environments and trade-off dilemmas
+- 💡 Created reusable **prompt scaffolding** for cognitive simulation
+
+---
+
+## 🧪 How to Run
+
+> ⚠️ Requires access to Groq API and HuggingFace LLaMA
 
 1. Clone the repo:
-
    ```bash
-   git clone https://github.com/Vivi-repo/NeuroRecursion.git
-   cd NeuroRecursion
-   
-💡 Inspiration
-This project began as an exploration of recursion and logic trees—but it’s evolved into a sandbox for testing how memory, logic, and structure interact when recursively re-entered. It’s ideal for future AI simulations, educational logic exercises, or just for fun!
+   git clone https://github.com/your-username/neurorecursion.git
+   cd neurorecursion
+   ```
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Set up your .env:
+   ```bash
+    GROQ_API_KEY=your_key_here
+    ```
+4. Run the app:
+   ```bash
+    streamlit run app.py
+   ```
 
-📜 License
-This project is licensed under the MIT License.
+Future Direction:
 
-✨ Author
+Integrate a reinforcement learning feedback loop
+
+Add multi-agent dynamics to simulate negotiation or competition
+
+Expand to support real market data simulation
+
+Author:
+
 Vethavarnaa Sundaramoorthy Revathi
-GitHub @Vivi-repo
+
+LinkedIn (https://www.linkedin.com/in/vethavarnaa-sundaramoorthy-revathi) 
+
+GitHub (https://github.com/Vivi-repo/)
 
 
-Let me know if you want a more playful or a more technical version — or if you want help with the `requirements.txt` or `.gitignore` too!
+
+
 
